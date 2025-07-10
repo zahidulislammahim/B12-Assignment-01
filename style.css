@@ -108,7 +108,7 @@ nav{
 .user-stats{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 180px;
 }
 .user-stats h2{
      font-size: 80px;
@@ -116,4 +116,19 @@ nav{
      color: #4E47FF;
      margin-bottom: 0;
      font-family: integer, sans-serif;
+}
+.feedback-section{
+    text-align: center;
+    padding: 50px 0;
+    margin: 100px 140px;
+}
+.feedback-section h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.feedback-cards{
+    display: flex;
+    gap: 50px;
+    box-shadow: 10 10 50;
 }
