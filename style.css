@@ -85,6 +85,11 @@ nav{
 }
 .action-img img{
    border-radius: 48px;
+   transition: 0.5s;
+}
+.action-img img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .user-section{
     text-align: center;
@@ -193,6 +198,11 @@ nav{
 }
 .focus-img img{
     border-radius: 48px;
+    transition: 0.5s;
+}
+.focus-img img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .contact-section{
     display: flex;
