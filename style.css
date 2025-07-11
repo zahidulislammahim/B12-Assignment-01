@@ -10,6 +10,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #f5f8ff;
 }
 .btn{
     background-color: #4E47FF;
@@ -72,9 +73,6 @@ nav{
     padding: 50px 0;
     margin: 100px 140px;
 }
-.action-text{
-    /* padding-right: 500px; */
-}
 .action-text h2{
     font-size: 42px;
     font-weight: bold;
@@ -126,9 +124,149 @@ nav{
     font-size: 42px;
     font-weight: bold;
     color: #252432;
+    margin-bottom: 50px;
 }
 .feedback-cards{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     box-shadow: 10 10 50;
+    text-align: left;
+}
+.feedback-card{
+    border: 1px solid #F2EDED;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 14px;
+}
+.star{
+    display: flex;
+    gap: 5px;
+}
+.feedback-card h3{
+    font-size: 25px;
+    color: #1E1E1E;
+    margin-bottom: 0;
+}
+.feedback-card p{
+    margin-top: 10px;
+    color: #1E1E1E;
+    font-weight: 500;
+
+}
+.reviewer-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.reviewer-info p{
+    margin: 0;
+}
+.reviewer-info p:first-child{
+    font-weight: bold;
+    color: #757575;
+}
+.reviewer-info p:last-child{
+    color: #B3B3B3;
+}
+.reviewer-info img{
+    border-radius: 50%;
+}
+.focus-section{
+    text-align: center;
+    padding: 50px 0;
+    margin: 100px 140px;
+    background-color: #ffffff;
+}
+.focus-section h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+.focus-section p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+.focus-section button{
+    margin-bottom: 20px;
+}
+.focus-img img{
+    border-radius: 48px;
+}
+.contact-section{
+    display: flex;
+    background-color: #F5F8FF;
+    margin: 100px 140px;
+    gap: 100px;
+}
+.contact-section h1{
+    font-size: 97px;
+    font-weight: bold;
+    color: black;
+}
+.contact-section form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0;
+    width: 500px;
+}
+.contact-section input, .contact-section textarea{
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    font-size: 16px;
+}
+.contact-section input:focus, .contact-section textarea:focus{
+    outline: none;
+    border-color: #4E47FF;
+}
+.contact-section label{
+      font-family: integer, sans-serif;
+      font-size: 18px;
+      margin-bottom: -10px;
+}
+.contact-section textarea{
+    height: 100px;
+    resize: none;
+}
+.contact-section input ::placeholder, .contact-section textarea ::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: integer, sans-serif;
+    font-size: 20px;
+}
+footer{
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer-content{
+    align-items: center;
+    gap: 50px;
+    max-width: 530px;
+    margin: 0 auto;
+}
+.footer-content h1{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    font-family: integer, sans-serif;
+    margin-bottom: 0;
+}
+.footer-content p{
+    color: #8987A1;
+}
+.footer-content ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #8987A1;
+}
+.footer-content ul li {
+    cursor: pointer;
 }
